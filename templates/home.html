@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <style>
+      #search {
+        margin-left: 5%;
+        width: 10%;
+      }
+
+      #labels {
+        margin-left: 17%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2 style="text-align: center">KIRAN</h2>
+    <h2 style="text-align: center">ASSIGNMENT 1</h2>
+    <h3 style="text-align: center">1001848434</h3>
+    <!-- Part 1 - Upload a picture to Azure Storage Account and display it on the page. -->
+    <img
+      src="https://adbfirstassignment.blob.core.windows.net/sample/saitheja.jpg"
+      style="width: 250px; height: 200px; margin-left: 40%; margin-bottom: 10%"
+      alt="Image Not found!"
+    />
+    <br /><br />
+    <form method="POST" action="/getdata" method="POST" method="GET">
+      <label id="labels">Enter a name</label>
+      <input type="text" id="search" name="search" />
+      <input type="submit" id="button" value="Search" />
+    </form>
+  </body>
+</html>
